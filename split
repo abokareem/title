@@ -1,0 +1,2 @@
+
+cat palman.txt | split -d -b 50m - "palman."

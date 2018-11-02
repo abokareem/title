@@ -1,2 +1,4 @@
 
-cat palman.txt | split -d -b 50m - "palman."
+cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى ملفات بحجم 50 ميغا
+cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
+

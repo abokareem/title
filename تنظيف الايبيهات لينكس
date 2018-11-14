@@ -7,8 +7,10 @@ cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى مل
 cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 
-cat bios.txt | sort | uniq > ip64-69.txt         
-sort bios.txt |uniq -u|tee ips.txt
+cat bios.txt | sort | uniq > ip64-69.txt
+
+sort bios.txt | uniq | tee ips.txt
+
 
 تنظيف المكرر
   

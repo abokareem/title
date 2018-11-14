@@ -8,7 +8,7 @@ cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 
 cat bios.txt | sort | uniq > ip64-69.txt         
-
+sort bios.txt |uniq -u|tee ips.txt
 
 تنظيف المكرر
   

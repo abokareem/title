@@ -3,6 +3,7 @@ cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى مل
 cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 
+split -l 50000 -d --additional-suffix=.txt ip.txt Pal-     بقسم الايبيهات لعدد 50 الف وبحفظ بامتداد txt 
 
 I know the question has been asked a long time ago, but I am surprised that nobody has given the most straightforward unix answer:
 

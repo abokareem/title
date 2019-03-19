@@ -7,7 +7,7 @@ split -l 50000 -d --additional-suffix=.txt ip.txt Pal-     بقسم الايبي
 
 rm -rf PAL   حدف مجلد
 mkdir  PAL  انشاء مجلد
-
+rename test.txt hope.txt   تغير اسم الملف
 I know the question has been asked a long time ago, but I am surprised that nobody has given the most straightforward unix answer:
 
 split -l 5000 -d --additional-suffix=.txt $FileName file

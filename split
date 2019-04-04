@@ -2,6 +2,9 @@
 cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى ملفات بحجم 50 ميغا
 cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
+grep -E '\.[^.]+\.[[:alpha:]]' ip.txt > ipNEW.txt    تنظيف دومينات وسب دومين
+
+
 grep -Po "(\d+\.){3}\d+:?(\d?){4}" palman.txt > ip.txt   تنظيف الايبيهات واخراج ايبيهات مع بورتات
 
 grep -Po "([0-2]?\d?\d\.){3}[0-2]?\d?\d:(\d?){5}" file   تنظيف واضافة بورت

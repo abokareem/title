@@ -4,6 +4,7 @@ cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 grep -E '\.[^.]+\.[[:alpha:]]' ip.txt > ipNEW.txt    تنظيف دومينات وسب دومين
 
+grep -io '[0-9a-f]\{12\}' file.txt > macs.txt     تنظيف ماكات
 
 grep -Po "(\d+\.){3}\d+:?(\d?){4}" palman.txt > ip.txt   تنظيف الايبيهات واخراج ايبيهات مع بورتات
 

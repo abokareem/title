@@ -4,6 +4,9 @@ cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 grep -E '\.[^.]+\.[[:alpha:]]' ip.txt > ipNEW.txt    تنظيف دومينات وسب دومين
 
+
+awk -F\. '{print $(NF-1) FS $NF}' ip.txt > ipNEW.txt     تنظيف دومينات رئيسية من اى اضافات
+
 grep -x '[A-Za-z0-9_\.-]*.net' net.txt > netnew.txt        فرز الدومينات على حسب الامتداد
 
 grep -io '[0-9a-f]\{12\}' file.txt > macs.txt     تنظيف ماكات

@@ -4,6 +4,7 @@ cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
 grep -E '\.[^.]+\.[[:alpha:]]' ip.txt > ipNEW.txt    تنظيف دومينات وسب دومين
 
+awk -F. '{print $1}' ip.txt > ipNEW.txt   مفيد لتنقية الاسماء الفرعية للدومين واستخدامها فى التخمين
 
 awk -F\. '{print $(NF-1) FS $NF}' ip.txt > ipNEW.txt     تنظيف دومينات رئيسية من اى اضافات
 

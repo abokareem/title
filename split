@@ -2,6 +2,8 @@
 cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى ملفات بحجم 50 ميغا
 cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 
+sort myfile |uniq -u|tee newfile.txt      تنظيف المكرر عبر سطر الاوامر
+
 grep -oP  "(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]" ip.txt > ipNEW.txt   بنظف ملف الايبيهات ويتم الحصول على رئيسيى وفرعي
 
 grep -E '\.[^.]+\.[[:alpha:]]' ip.txt > ipNEW.txt    تنظيف دومينات وسب دومين

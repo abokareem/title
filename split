@@ -8,7 +8,7 @@
 	
 	
 	grep -i '92.222.220' ips.ip > test.txt  جيد
-    
+    grep -iF '"txt.' aaa.json > qqqqqq.txt   الافضل حاليا   
     
     gunzip file.gz  فك ظغط ملفات  gz
     

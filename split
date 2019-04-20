@@ -10,6 +10,11 @@
 	grep -i '92.222.220' ips.ip > test.txt  جيد
     
     
+    gunzip file.gz  فك ظغط ملفات  gz
+    
+    lz4  file
+    unlz4  file
+    
 cat palman.txt | split -d -b 50m - "palman."   تقسيم الملف الى ملفات بحجم 50 ميغا
 cat palman.* >>palman.txt       تجميع الكل الى ملف واحد
 

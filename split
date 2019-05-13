@@ -10,8 +10,7 @@
 	grep -i '92.222.220' ips.ip > test.txt  جيد
     grep -iF '"txt.' aaa.json > qqqqqq.txt   الافضل حاليا   
     
-    grep -iF '"txt.' ips.ip > ipipip.txt | wc -l
-    
+grep -c 'word-to-search' fileNameHere    
     
     grep -m100000 -iF 'text' mx.txt > save.txt   لكن بده ترتيب النتائج بتفرق عن الى فوق سريع
     

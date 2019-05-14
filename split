@@ -10,7 +10,7 @@
 	grep -i '92.222.220' ips.ip > test.txt  جيد
     grep -iF '"txt.' aaa.json > qqqqqq.txt   الافضل حاليا   
     
-grep -c 'word-to-search' fileNameHere    
+awk '$0="Mohammad"$0' hosts.txt > testHosts.txt   اضافة كلمة او سطر او رمز اول السطر فى ملف النصي
     
     grep -m100000 -iF 'text' mx.txt > save.txt   لكن بده ترتيب النتائج بتفرق عن الى فوق سريع
     

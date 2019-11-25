@@ -1,0 +1,8 @@
+sudo python -m easy_install --upgrade pyOpenSSL
+
+
+للابنتوا
+
+
+الخطا هو
+Python “pip install ” is failing with AttributeError: 'module' object has no attribute 'SSL_ST_INIT'

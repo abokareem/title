@@ -1,6 +1,6 @@
 طرق للبحت عبر سطر الاوامر داخل الملفات
 
-
+    grep -n '194.6.1.156:8280' ips.ip   كشف كم رقم الاى بى بأى سطر بالملف
     grep 'word' filename – Search any line that contains the word in filename on Linux
     grep -i 'bar' file1 – A case-insensitive search for the word ‘bar’ in Linux and Unix
     grep -R 'foo' . – Search all files in the current directory and in all of its subdirectories in Linux for the word ‘foo’

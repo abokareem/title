@@ -6,7 +6,12 @@
     grep -R 'foo' . – Search all files in the current directory and in all of its subdirectories in Linux for the word ‘foo’
     grep -c 'nixcraft' frontpage.md – Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md
 	
-	
+	ظغط سريع للمفات لحد النصف
+	lz4 [OPTIONS] [-|INPUT-FILE] <OUTPUT-FILE>
+
+       unlz4 is equivalent to lz4 -d
+       
+       
 	grep -i '92.222.220' ips.ip > test.txt  جيد
     grep -iF '"txt.' aaa.json > qqqqqq.txt   الافضل حاليا   
     

@@ -1,5 +1,9 @@
 طرق للبحت عبر سطر الاوامر داخل الملفات
 
+تنظيف ارقام الهاتف من 11 رقم من ملفات 
+grep -o '[0-9]\{11\}' n.txt > number.txt
+
+
     grep -R ':' IpsUK-AllPORT.txt >new.txt    امر فلترة كافة الاسطر بحثا عن الرمز : واعادة حفظهم فى ملف أخر مهم جدا للسكان
     grep -n '194.6.1.156:8280' ips.ip   كشف كم رقم الاى بى بأى سطر بالملف
     grep 'word' filename – Search any line that contains the word in filename on Linux
